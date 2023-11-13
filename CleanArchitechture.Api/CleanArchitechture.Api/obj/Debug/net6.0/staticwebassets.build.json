@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "9NuHsCs07m4Fgwl/Qfz0hN94+3C1m9uE1tumjRSHfig=",
+  "Source": "CleanArchitechture.Api",
+  "BasePath": "_content/CleanArchitechture.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CleanArchitechture.Api\\wwwroot",
+      "Source": "CleanArchitechture.Api",
+      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "BasePath": "_content/CleanArchitechture.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
+      "SourceId": "CleanArchitechture.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "BasePath": "_content/CleanArchitechture.Api",
+      "RelativePath": "Logs/log2023-11-12.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Logs\\log2023-11-12.txt"
+    }
+  ]
+}
