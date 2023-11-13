@@ -1,7 +1,7 @@
 ﻿
 using CleanArchitechture.Core.Dtos;
 
-namespace BookKeeping.Core.Interfaces.Services;
+namespace CleanArchitechture.Core.Interfaces.Services;
 
 public interface IBaseService<TDto, TKey> where TDto : BaseDto<TKey>
 {

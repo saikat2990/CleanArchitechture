@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bb5jOx8HueZL3sY+LCbHXdQuDPXy82mIPwGv6TmO8ss=",
+  "Hash": "LKeOE47VwgGF8pLW+kiPMenn71qKgk2s3hsQ9fzQ4gI=",
   "Source": "CleanArchitechture.Api",
   "BasePath": "_content/CleanArchitechture.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CleanArchitechture.Api\\wwwroot",
       "Source": "CleanArchitechture.Api",
-      "ContentRoot": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
       "BasePath": "_content/CleanArchitechture.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
+      "Identity": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
       "SourceId": "CleanArchitechture.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
       "BasePath": "_content/CleanArchitechture.Api",
       "RelativePath": "Logs/log2023-11-12.txt",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Logs\\log2023-11-12.txt"
     },
     {
-      "Identity": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-13.txt",
+      "Identity": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-13.txt",
       "SourceId": "CleanArchitechture.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
       "BasePath": "_content/CleanArchitechture.Api",
       "RelativePath": "Logs/log2023-11-13.txt",
       "AssetKind": "All",

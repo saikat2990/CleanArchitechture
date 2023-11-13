@@ -1,5 +1,6 @@
 ﻿using CleanArchitechture.Core.DBEntities;
 using CleanArchitechture.Core.Enums;
+using CleanArchitechture.Core.Extensions;
 using CleanArchitechture.Core.Interfaces.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -52,6 +53,7 @@ public class DataService:IDataService
                 if (existingUser is null)
                 {
                     var result = await _user.CreateAsync(user, "123456");
+                    var roleResult = await _user.AddToRoleAsync(user, Roles.Admin.GetDescription());
                 }
                 else
                 {
@@ -81,12 +83,12 @@ public class DataService:IDataService
         {
             new AppRole()
             {
-                Name = Roles.Admin.ToString(),
+                Name = Roles.Admin.GetDescription(),
                 Code = "R001",
             },
             new AppRole()
             {
-                Name = Roles.User.ToString(),
+                Name = Roles.User.GetDescription(),
                 Code = "R002",
             }
         };

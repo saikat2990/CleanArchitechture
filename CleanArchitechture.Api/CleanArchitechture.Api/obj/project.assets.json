@@ -6481,19 +6481,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\saikat\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\CleanArchitechture.Api.csproj",
+      "projectUniqueName": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\CleanArchitechture.Api.csproj",
       "projectName": "CleanArchitechture.Api",
-      "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\CleanArchitechture.Api.csproj",
-      "packagesPath": "C:\\Users\\saikat\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\obj\\",
+      "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\CleanArchitechture.Api.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\saikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6501,21 +6501,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj": {
-              "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj"
+            "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj": {
+              "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj"
             },
-            "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Repositories\\CleanArchitechture.Repositories.csproj": {
-              "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Repositories\\CleanArchitechture.Repositories.csproj"
+            "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Repositories\\CleanArchitechture.Repositories.csproj": {
+              "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Repositories\\CleanArchitechture.Repositories.csproj"
             },
-            "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj": {
-              "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj"
+            "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj": {
+              "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj"
             }
           }
         }
@@ -6596,7 +6595,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

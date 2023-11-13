@@ -13,5 +13,9 @@ public class UserCreateDto:IMapFrom<AppUser>
     public string Email { get; set; }
     [Required]
     public string Password { get; set; }
-   
+    public void Mapping(Profile profile)
+    {
+        profile.CreateMap<UserCreateDto, AppUser>().ForMember(x => x.UserName, 
+            cnf => cnf.MapFrom(x => x.Name)).ReverseMap();
+    }
 }

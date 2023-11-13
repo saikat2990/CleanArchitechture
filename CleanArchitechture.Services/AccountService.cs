@@ -21,12 +21,7 @@ public class AccountService: IAccountService
 
     public async Task CreateUser(UserCreateDto model)
     {
-        var mapper = new MapperConfiguration(cfg => {
-
-            cfg.CreateMap<UserCreateDto, AppUser>().ForMember(x => x.UserName, opt => opt.MapFrom(s => s.Name));
-
-        }).CreateMapper();
-        var mappedAccount = mapper.Map<AppUser>(model);
+        var mappedAccount = _mapper.Map<AppUser>(model);
         var result = await _userManager.CreateAsync(mappedAccount,model.Password);
         if (result.Succeeded)
         {

@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using BookKeeping.Services;
 using CleanArchitechture.Core.DBEntities;
 using CleanArchitechture.Core.Dtos;
 using CleanArchitechture.Core.Interfaces.Repositories;
@@ -9,11 +8,14 @@ namespace CleanArchitechture.Services
 {
     public class TeamService : BaseService<Team, TeamDto>, ITeamService
     {
-        public readonly ITeamRepository _repo;
-        public TeamService(ITeamRepository repo, IMapper mapper) : base(repo, mapper)
+        private readonly ITeamRepository _teamRepository;
+        private readonly IMapper _mapper;
+        public TeamService(ITeamRepository teamRepository, IMapper mapper) : base(teamRepository, mapper)
         {
-            _repo = repo;
+            _teamRepository = teamRepository;
+            _mapper = mapper;
         }
 
+        
     }
 }

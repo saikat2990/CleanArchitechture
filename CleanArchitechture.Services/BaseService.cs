@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BookKeeping.Core.Interfaces.Services;
 using CleanArchitechture.Core.DBEntities;
 using CleanArchitechture.Core.Dtos;
 using CleanArchitechture.Core.Interfaces.Repositories;
+using CleanArchitechture.Core.Interfaces.Services;
 
-namespace BookKeeping.Services;
+namespace CleanArchitechture.Services;
 
 public class BaseService<TEntity, TDto, TKey> : IBaseService<TDto,TKey> where TEntity : BaseEntity<TKey> where TDto : BaseDto<TKey>
 {

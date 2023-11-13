@@ -24,7 +24,7 @@ Log.Logger = new LoggerConfiguration()
 Log.Information("Application starting...");
 
 // Add services to the container.
-
+builder.LoadData();
 builder.Services.AddControllers().AddNewtonsoftJson(o =>
 {
     o.SerializerSettings.Converters.Add(new StringEnumConverter

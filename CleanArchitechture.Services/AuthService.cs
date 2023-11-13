@@ -26,13 +26,13 @@ public class AuthService:IAuthService
         AppUser user = await _user.FindByNameAsync(request.UserName);
         if (user is null)
         {
-            throw new CustomException($"Authentication failed.");
+            throw new CustomException($"Authentication failed.Incorrect UserName");
         }
 
         var result = await _signIn.PasswordSignInAsync(user.UserName, request.Password, false, lockoutOnFailure: false);
         if (!result.Succeeded)
         {
-            throw new CustomException($"Authentication failed.");
+            throw new CustomException($"Authentication failed. Incorrect Password");
         }
 
         var response = await GetAuthResponse(user);
@@ -61,7 +61,7 @@ public class AuthService:IAuthService
 
         foreach (var role in roles)
         {
-            roleClaims.Add(new Claim("roles", role));
+            roleClaims.Add(new Claim(ClaimTypes.Role, role));
         }
 
         var claims = new[]
