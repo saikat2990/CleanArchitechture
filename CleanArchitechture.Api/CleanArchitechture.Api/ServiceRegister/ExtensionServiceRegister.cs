@@ -1,9 +1,11 @@
 ﻿using System.Security.Principal;
 using System.Text;
 using CleanArchitechture.Core.DBEntities;
+using CleanArchitechture.Core.Interfaces.Repositories;
 using CleanArchitechture.Core.Interfaces.Services;
 using CleanArchitechture.Core.Types;
 using CleanArchitechture.Repositories;
+using CleanArchitechture.Repositories.Repositories;
 using CleanArchitechture.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -22,7 +24,7 @@ public static class ServiceRegister
 
         #region Services
 
-        //services.AddScoped<ISomethingService, SomethingService>();
+        services.AddScoped<ITeamService, TeamService>();
         services.AddScoped<IDataService, DataService>();
         services.AddScoped<IAccountService, AccountService>();
         services.AddScoped<IAuthService, AuthService>();
@@ -31,9 +33,9 @@ public static class ServiceRegister
 
         #region Repositories
 
-        //services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
-        //services.AddScoped(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
-        //services.AddScoped<ISomethingRepository, SomethingRepository>();
+        services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+        services.AddScoped(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
+        services.AddScoped<ITeamRepository, TeamRepository>();
 
 
         #endregion

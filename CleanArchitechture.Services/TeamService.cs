@@ -1,10 +1,5 @@
 ﻿using AutoMapper;
 using BookKeeping.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CleanArchitechture.Core.DBEntities;
 using CleanArchitechture.Core.Dtos;
 using CleanArchitechture.Core.Interfaces.Repositories;
