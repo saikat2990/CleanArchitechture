@@ -17,7 +17,7 @@ public class UserController : BaseApiController
         _accountService = accountService;
     }
 
-    [HttpPost]
+    [HttpPost("UserCreate")]
     public async Task<ActionResult<object>> Create(UserCreateDto model)
     {
         if (model == null)

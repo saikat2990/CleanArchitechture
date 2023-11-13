@@ -38,7 +38,7 @@ public class DataService:IDataService
             {
                 UserName = "System.Admin",
                 Email = "System.Admin@gmail.com",
-
+                Name= "System.Admin"
             }
         };
 

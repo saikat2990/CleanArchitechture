@@ -10,14 +10,14 @@ D:\projects\CleanArchitechture\NewClean\CleanArchitechture.Core\obj\Debug\net6.0
 D:\projects\CleanArchitechture\NewClean\CleanArchitechture.Core\obj\Debug\net6.0\refint\CleanArchitechture.Core.dll
 D:\projects\CleanArchitechture\NewClean\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.pdb
 D:\projects\CleanArchitechture\NewClean\CleanArchitechture.Core\obj\Debug\net6.0\ref\CleanArchitechture.Core.dll
-D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\bin\Debug\net6.0\CleanArchitechture.Core.deps.json
-D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\bin\Debug\net6.0\CleanArchitechture.Core.dll
-D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\bin\Debug\net6.0\CleanArchitechture.Core.pdb
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.csproj.AssemblyReference.cache
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.AssemblyInfoInputs.cache
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.AssemblyInfo.cs
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.csproj.CoreCompileInputs.cache
+D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\bin\Debug\net6.0\CleanArchitechture.Core.deps.json
+D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\bin\Debug\net6.0\CleanArchitechture.Core.dll
+D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\bin\Debug\net6.0\CleanArchitechture.Core.pdb
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.dll
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\refint\CleanArchitechture.Core.dll
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Core\obj\Debug\net6.0\CleanArchitechture.Core.pdb

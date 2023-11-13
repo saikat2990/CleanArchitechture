@@ -13,7 +13,7 @@ public class AccountController : BaseApiController
         _auth = auth;
     }
 
-    [HttpPost]
+    [HttpPost("Login")]
     public async Task<ActionResult<ApiResult<LoginResult>>> Login(LoginPayload payload)
     {
         var result = await _auth.LoginAsync(payload);

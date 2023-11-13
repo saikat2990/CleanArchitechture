@@ -2,7 +2,7 @@
 
 namespace CleanArchitechture.Core.Interfaces.Repositories;
 
-public interface IBaseRepositories<TEntity, TKey> where TEntity : BaseEntity<TKey>
+public interface IBaseRepository<TEntity, TKey> where TEntity : BaseEntity<TKey>
 {
     Task<List<TEntity>> GetAll();
     public Task<TEntity> GetById(TKey id);
@@ -26,3 +26,5 @@ public interface IBaseRepositories<TEntity, TKey> where TEntity : BaseEntity<TKe
     void ParmanentDeleteList(IEnumerable<TEntity> entities);
     Task ParmanentDeleteListAsync(IEnumerable<TEntity> entities);
 }
+
+public interface IBaseRepository<TEntity> : IBaseRepository<TEntity, int> where TEntity : BaseEntity { }

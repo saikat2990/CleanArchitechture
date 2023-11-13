@@ -217,4 +217,3 @@ D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Api\CleanArchit
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Api\CleanArchitechture.Api\obj\Debug\net6.0\CleanArchitechture.Api.pdb
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Api\CleanArchitechture.Api\obj\Debug\net6.0\CleanArchitechture.Api.genruntimeconfig.cache
 D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Api\CleanArchitechture.Api\obj\Debug\net6.0\ref\CleanArchitechture.Api.dll
-D:\Code\CleanArchitechture\CleanArchitechture\CleanArchitechture.Api\CleanArchitechture.Api\obj\Debug\net6.0\CleanArchitechture.Api.MvcApplicationPartsAssemblyInfo.cs

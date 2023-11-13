@@ -12,7 +12,8 @@ public sealed class AppDbContext : IdentityDbContext<AppUser, AppRole, string>
     {
 
     }
-      
+    public DbSet<Team> Teams { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
