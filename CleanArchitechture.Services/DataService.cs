@@ -38,8 +38,7 @@ public class DataService:IDataService
             {
                 UserName = "System.Admin",
                 Email = "System.Admin@gmail.com",
-                FullName = "Firstname lastName",
-                TeamName = "Artisan",
+
             }
         };
 
@@ -57,9 +56,9 @@ public class DataService:IDataService
                 else
                 {
                     var isUpdated = false;
-                    if (existingUser.FullName != user.FullName)
+                    if (existingUser.UserName != user.UserName)
                     {
-                        existingUser.FullName = user.FullName;
+                        existingUser.UserName = user.UserName;
                         isUpdated = true;
                     }
                     if (isUpdated) await _user.UpdateAsync(existingUser);

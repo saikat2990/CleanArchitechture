@@ -1,5 +1,5 @@
 ﻿using System.Net;
-using BookKeeping.Core.Exceptions;
+using CleanArchitechture.Core.Exceptions;
 using CleanArchitechture.Core.Types;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;

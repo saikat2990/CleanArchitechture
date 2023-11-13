@@ -61,6 +61,8 @@ var app = builder.Build();
 
 await app.ExecuteScopedActions();
 
+await app.DataSeeding();
+
 app.UseCors("CorsPolicy");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

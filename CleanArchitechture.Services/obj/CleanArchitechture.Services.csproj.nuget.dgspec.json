@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj": {}
+    "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj": {}
   },
   "projects": {
-    "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj": {
+    "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj",
+        "projectUniqueName": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj",
         "projectName": "CleanArchitechture.Core",
-        "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\obj\\",
+        "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj",
+        "packagesPath": "C:\\Users\\saikat\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\saikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +42,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[11.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -65,21 +69,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj": {
+    "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj",
+        "projectUniqueName": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj",
         "projectName": "CleanArchitechture.Services",
-        "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Services\\obj\\",
+        "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\CleanArchitechture.Services.csproj",
+        "packagesPath": "C:\\Users\\saikat\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\saikat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj": {
-                "projectPath": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj"
+              "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj": {
+                "projectPath": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Core\\CleanArchitechture.Core.csproj"
               }
             }
           }
@@ -112,6 +116,14 @@
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -130,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

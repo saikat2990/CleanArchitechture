@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Principal;
+using System.Text;
 using CleanArchitechture.Core.DBEntities;
 using CleanArchitechture.Core.Interfaces.Services;
 using CleanArchitechture.Core.Types;
@@ -22,7 +23,9 @@ public static class ServiceRegister
         #region Services
 
         //services.AddScoped<ISomethingService, SomethingService>();
-
+        services.AddScoped<IDataService, DataService>();
+        services.AddScoped<IAccountService, AccountService>();
+        services.AddScoped<IAuthService, AuthService>();
 
         #endregion
 
@@ -31,7 +34,7 @@ public static class ServiceRegister
         //services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
         //services.AddScoped(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
         //services.AddScoped<ISomethingRepository, SomethingRepository>();
-        services.AddScoped<IDataService, DataService>();
+
 
         #endregion
 
@@ -71,7 +74,12 @@ public static class ServiceRegister
                 opt.Password.RequireLowercase = false;
                 opt.SignIn.RequireConfirmedEmail = false;
                 opt.SignIn.RequireConfirmedPhoneNumber = false;
-            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+            })
+            .AddRoles<AppRole>()
+            .AddRoleManager<RoleManager<AppRole>>()
+            .AddSignInManager<SignInManager<AppUser>>()
+            .AddRoleValidator<RoleValidator<AppRole>>()
+            .AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
     }
 
     public static void AddAuthentication(this WebApplicationBuilder builder)
@@ -114,6 +122,13 @@ public static class ServiceRegister
                 },
             };
         });
+    }
+
+    public static async Task DataSeeding(this WebApplication app)
+    {
+        using var scope = app.Services.CreateScope();
+        var seedService = scope.ServiceProvider.GetRequiredService<IDataService>();
+        await seedService.SeedData();
     }
 
     public static void RegisterCors(this WebApplicationBuilder builder)

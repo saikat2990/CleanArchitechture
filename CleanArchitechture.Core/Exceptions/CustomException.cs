@@ -1,11 +1,11 @@
 ﻿using CleanArchitechture.Core.Enums;
 
-namespace BookKeeping.Core.Exceptions;
+namespace CleanArchitechture.Core.Exceptions;
 
 public class CustomException : Exception
 {
     private const string DefaultMessage = "An Error occured.";
-    public List<string> Errors { get; }
+    public List<string> Errors { get; } = null!;
 
     public MessageDisplayType MessageDisplayType { get; set; }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9NuHsCs07m4Fgwl/Qfz0hN94+3C1m9uE1tumjRSHfig=",
+  "Hash": "bb5jOx8HueZL3sY+LCbHXdQuDPXy82mIPwGv6TmO8ss=",
   "Source": "CleanArchitechture.Api",
   "BasePath": "_content/CleanArchitechture.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CleanArchitechture.Api\\wwwroot",
       "Source": "CleanArchitechture.Api",
-      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "ContentRoot": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
       "BasePath": "_content/CleanArchitechture.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
+      "Identity": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
       "SourceId": "CleanArchitechture.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "ContentRoot": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
       "BasePath": "_content/CleanArchitechture.Api",
       "RelativePath": "Logs/log2023-11-12.txt",
       "AssetKind": "All",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Logs\\log2023-11-12.txt"
+    },
+    {
+      "Identity": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-13.txt",
+      "SourceId": "CleanArchitechture.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\",
+      "BasePath": "_content/CleanArchitechture.Api",
+      "RelativePath": "Logs/log2023-11-13.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Logs\\log2023-11-13.txt"
     }
   ]
 }

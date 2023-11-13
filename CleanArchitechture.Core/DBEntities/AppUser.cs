@@ -6,6 +6,8 @@ namespace CleanArchitechture.Core.DBEntities;
 
 public class AppUser: IdentityUser
 {
-    public string TeamName { get; set; }
-    public string FullName { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+
 }

@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "D:\\projects\\CleanArchitechture\\NewClean\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
+      "Id": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-12.txt",
       "PackagePath": "staticwebassets\\Logs\\log2023-11-12.txt"
+    },
+    {
+      "Id": "D:\\Code\\CleanArchitechture\\CleanArchitechture\\CleanArchitechture.Api\\CleanArchitechture.Api\\wwwroot\\Logs\\log2023-11-13.txt",
+      "PackagePath": "staticwebassets\\Logs\\log2023-11-13.txt"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CleanArchitechture.Api.Microsoft.AspNetCore.StaticWebAssets.props",

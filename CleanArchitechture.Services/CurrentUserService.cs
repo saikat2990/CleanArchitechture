@@ -9,11 +9,11 @@ public class CurrentUserService: ICurrentUserService
 {
     public CurrentUserService(IHttpContextAccessor httpContextAccessor)
     {
-        UserId = httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.NameIdentifier)!.Value!;
-        UserName = httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.Name)!.Value!;
-        Email = httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.Email)!.Value!;
-        Role = httpContextAccessor.HttpContext?.User.FindFirst(ClaimTypes.Role)!.Value! ?? 
-            httpContextAccessor.HttpContext?.User.FindFirst("roles")!.Value!;
+        UserId = httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.NameIdentifier);
+        UserName = httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.Name);
+        Email = httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.Email);
+        Role = httpContextAccessor.HttpContext?.User.FindFirstValue(ClaimTypes.Role) ??
+               httpContextAccessor.HttpContext?.User.FindFirstValue("roles");
     }
     public string UserId { get; }
     public string UserName { get; }
